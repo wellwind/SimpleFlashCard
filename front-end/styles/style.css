@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+.fc-english {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Candal', sans-serif;
+}
+
+.fc-chinese {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+.fc-blur {
+    filter: url(blur.svg#blur);
+    /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(10px);
+    /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+    /* IE6~IE9 */
+}
