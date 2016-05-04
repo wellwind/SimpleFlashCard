@@ -1,3 +1,4 @@
+var React = require("react");
 var QuestionNumber = require("./QuestionNumber");
 var MainContainer = require("./MainContainer");
 var Score = require("./Score");

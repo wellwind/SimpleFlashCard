@@ -1,3 +1,5 @@
+var React = require("react");
+
 var MainContainer = React.createClass({
     toogleAnswerBlur: function(){
         this.props.toogleAnswerBlur();
