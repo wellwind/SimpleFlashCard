@@ -1,4 +1,5 @@
-var _ = require("../../../scripts/underscore-min");
+var React = require("react");
+var _ = require("underscore");
 
 var Score = React.createClass({
     render: function(){
